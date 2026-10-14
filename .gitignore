@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated model and outputs
+models/*.joblib
+outputs/*.csv
+outputs/*.json
+images/*.png
+
+# Keep placeholder files
+!models/.gitkeep
+!outputs/.gitkeep
+!images/.gitkeep
